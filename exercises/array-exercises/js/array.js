@@ -56,7 +56,7 @@ class ArrayFunctions {
    * append([1,2,3], 4); // [1,2,3,4]
    */
   append(arr, item) {
-    // hint: push, slice, splice would all work. Pay attention to the return value in the docs
+    arr.push(item)
     return arr;
   }
 
