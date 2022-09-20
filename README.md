@@ -5,16 +5,21 @@ JS and DOM Exercise
 Instructions to this assignment can be found [here](https://it3049c.github.io/Material/Assignments/2.JavaScript_Exercises/).
 
 ## Checklist:
-- [ ] update the assignment checks above to the correct link. - Done Automatically
-- [ ] All Unit tests passed.
-- [ ] filled out the self-evaluation.
-- [ ] filled out the self-reflection.
+- [x] update the assignment checks above to the correct link. - Done Automatically
+- [-] All Unit tests passed. Like mentioned in the other assignment I need help running the tests
+- [x] filled out the self-evaluation.
+- [x] filled out the self-reflection.
 
 ## Self-Evaluation: 
 (You may base this on the number of exercises you were able to complete)
 how many points out of 20 do you deserve on this assignment:
 
+I would say a 17/20 again
+
 ## Self-Reflection:
 <!-- What did you learn that you found interesting -->
 
+I think the collest thing I learned/remembered, was the Math.(blank) I forgot that js has a math variable that you can use. It is very helpful
+
 ### How long it took you to finish this?
+about 3 days as well
