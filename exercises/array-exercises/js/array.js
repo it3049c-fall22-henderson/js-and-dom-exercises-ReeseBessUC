@@ -7,8 +7,8 @@ class ArrayFunctions {
    * @example
    * indexOf([1,2,3,5,6], 3); // 2
    */
-  indexOf(arr, item) {
-    return item;
+   indexOf(arr, item) {
+    return arr.indexOf(item);
   }
 
   /**
@@ -37,8 +37,15 @@ class ArrayFunctions {
    * filter([1,2,3,5,6,2,4,2], 2); // [1,3,5,6,4]
    */
   filterOut(arr, item) {
-    return ;
+    for(i=0; i<arr.length; i++){
+      if(arr[i]==item){
+        arr.splice(i, 1);
+        i--;
+      }
+    }
+    return arr;
   }
+  
 
   /**
    * Append: you should be able to add an item to the end of an array
