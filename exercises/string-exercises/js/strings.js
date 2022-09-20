@@ -9,7 +9,7 @@ class StringFunctions {
     capitalize(input) { 
         return input.toUpperCase();
     }
-    
+
     /**
      * Returns a reversed string. Example: "abc" => "cba"
      * @param {string} input - the string input to be processed 
@@ -18,7 +18,7 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
-      return input;
+      return input.split("").reverse().join("");
     }
     /**
      * Returns an array of the words in a string
