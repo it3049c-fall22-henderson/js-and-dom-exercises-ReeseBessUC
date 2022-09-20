@@ -19,9 +19,13 @@ class ArrayFunctions {
    * sum([1,2,3]); // 6
    */
   sum(arr) {
-    // Hint: use the reduce method
-    return ;
+    var sum = 0;
+    for(var i=0; i<arr.length; i++){
+      sum+=arr[i];
+    }
+    return sum;
   }
+
 
   /**
    * Filter: Should filter out all instances of a value from an array
