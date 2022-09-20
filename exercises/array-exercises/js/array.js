@@ -80,7 +80,7 @@ class ArrayFunctions {
    * square([1,2,4,5]); // [1,4,16,25]
    */
   square(arr) {
-    // hint: use .map
-    return ;
+  square = arr.map(Math.sqrt)
+    return square;
   }
 }
