@@ -7,9 +7,9 @@ class StringFunctions {
      * capitalize('HELLO WORLD') // 'Hello world'
      */
     capitalize(input) { 
-      var input = text.toUpperCase();
-      return input; 
-    }
+      function capitalize(str) {
+        return str.toUpperCase();
+        
     /**
      * Returns a reversed string. Example: "abc" => "cba"
      * @param {string} input - the string input to be processed 
